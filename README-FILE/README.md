@@ -5,7 +5,7 @@ The aim of this assignment was to create a responsive website using a design we 
 
 DESCRIPTION
 
-In this project I have created a website for purchasing films to watch online. 
+In this project I have designed and developed a website for purchasing films to watch online. 
 
 I created this website according to my design in the following figma file: https://www.figma.com/design/YNmCKo1BCxVOKKS1IuHsWV/Square-Eyes-Wireframe-Desktop-%2B-Mobile?node-id=0-1&t=d1FS2w7pf6UgjN67-0
 
