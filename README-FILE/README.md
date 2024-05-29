@@ -1,7 +1,7 @@
 HTML & CSS COURSE ASSIGNMENT
 
 #Project Purpose
-The aim of this assignment was to create a responsive website using a design we created in Figma and then developing the website in HTML and CSS only.
+The aim of this assignment was to create a responsive website using a design we created in Figma and then develop the website in HTML and CSS only.
 
 DESCRIPTION
 
