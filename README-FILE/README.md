@@ -1,9 +1,9 @@
-#HTML & CSS COURSE ASSIGNMENT
+HTML & CSS COURSE ASSIGNMENT
 
 #Project Purpose
 The aim of this assignment was to create a responsive website using a design we created in Figma and then developing the website in HTML and CSS only.
 
-#DESCRIPTION
+DESCRIPTION
 
 In this project I have designed and developed a website for purchasing films to watch online. 
 
@@ -18,7 +18,7 @@ The website contains:
 
 
 
-#Project Brief 
+Project Brief 
 
 I created this website according to the following brief: 
 
@@ -32,7 +32,7 @@ I created this website according to the following brief:
 - Each page should have a unique meta name=description, title, and h1.
 - All code submitted must be written by yourself.
 
-  #BUILT WITH
+  BUILT WITH
 
   -HTML
   -CSS
@@ -42,7 +42,7 @@ I created this website according to the following brief:
   1. Clone the repo: https://github.com/lem31/HTML---CSS-ASSIGNMENT/tree/main
   2. Go to pages under settings
  
-  #CONTACT
+  CONTACT
 
   Linkedin Profile: www.linkedin.com/in/leanne-elizabeth-meyer-254858266
 
