@@ -39,7 +39,12 @@ I created this website according to the following brief:
 
   INSTALLATION
 
-  1. Clone the repo: 
+  1. Clone the repo: https://github.com/lem31/HTML---CSS-ASSIGNMENT/tree/main
+  2. Go to pages under settings
+ 
+  CONTACT
+
+  Linkedin Profile: www.linkedin.com/in/leanne-elizabeth-meyer-254858266
 
 
 
