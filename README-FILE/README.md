@@ -29,7 +29,7 @@ I created this website according to the following brief:
 - The website should be responsive and look good at every screen size with no horizontal scrollbars.
 - No frameworks
 - The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique <meta name="description">, <title>, and <h1>.
+- Each page should have a unique meta name=description, title, and h1.
 - All code submitted must be written by yourself.
 
   BUILT WITH
