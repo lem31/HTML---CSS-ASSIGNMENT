@@ -1,0 +1,71 @@
+.img-bg-box {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  min-width: 600px;
+  height: 50rem;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  position: relative;
+}
+
+.Batman-img-Product-Page {
+  width: 400px;
+  height: 500px;
+  opacity: 0.3;
+}
+
+.Product-1-text-box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 460px;
+  width: 380px;
+  position: absolute;
+}
+
+.Buy-btn,
+.View-btn {
+  border-color: white;
+  border-radius: 10px 10px;
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  font-family: "Open Sans";
+}
+
+.View-btn {
+  height: 2rem;
+  width: 8rem;
+  margin-top: 1rem;
+}
+
+.Btn-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 160px;
+}
+
+.Film-text-Product-Page-1 {
+  font-size: 1.2rem;
+}
+
+.The-Batman-span {
+  font-weight: bold;
+  font-size: 2rem;
+}

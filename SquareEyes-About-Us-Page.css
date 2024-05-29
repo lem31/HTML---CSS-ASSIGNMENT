@@ -1,0 +1,44 @@
+/* ABOUT US PAGE */
+
+.About-Us {
+  height: 50rem;
+}
+
+.About-Us-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.h1-about {
+  display: flex;
+  flex-direction: row;
+  width: 180px;
+  justify-content: end;
+  align-items: center;
+}
+
+.Header-text-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.Header-text-box p {
+  font-size: 1.3rem;
+}
+
+.About-img {
+  width: 40vw;
+}
+
+.P-About-box {
+  display: flex;
+  flex-direction: row;
+  max-width: 40vw;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

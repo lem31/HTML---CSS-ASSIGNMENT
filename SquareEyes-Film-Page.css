@@ -1,0 +1,128 @@
+@import url(SquareEyes.css);
+
+/* VARIABLES */
+
+:root {
+  --Linear-Purple-Color: linear-gradient(180deg, #aa47ff 0%, #0f3b70 100%);
+  --Base-Blue-Color: #0f3b70;
+  --White-Text-Color: #ffffff;
+  --Primary-Font: "Amaranth", "open sans";
+  --Secondary-Font: "Open Sans", "sans-serif";
+}
+
+.All-films-box,
+.Films-Categories-box {
+  background-color: var(--Base-Blue-Color);
+}
+
+.header-films-page {
+  color: var(--White-Text-Color);
+  font-family: var(--Primary-Font);
+  font-size: 1.5rem;
+}
+
+/* FILMS PAGE */
+
+body {
+  overflow-y: scroll;
+}
+
+.All-films-box {
+  max-height: 750px;
+}
+
+#h1-Films {
+  display: flex;
+  max-width: 120px;
+  justify-content: flex-end;
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
+#h2-Films {
+  display: flex;
+  justify-content: center;
+}
+
+.All-films-images-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.All-films-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(80px, 1fr));
+  column-gap: 0;
+  row-gap: 9rem;
+  max-width: 800px;
+  width: 100%;
+  justify-content: center;
+}
+
+.Films-Categories-box {
+  max-height: 300px;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  position: relative;
+  overflow-x: hidden;
+  overflow: scroll;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.Film-cat-row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  column-gap: 5.5rem;
+  max-width: 840px;
+  width: 100%;
+  position: static;
+  align-self: center;
+}
+
+.Film-cat-row-1,
+.Film-cat-row-2,
+.Film-cat-row-4,
+.Film-cat-row-5 {
+  position: static;
+  max-width: 838px;
+  width: 100%;
+  align-self: center;
+}
+
+.cat-img-box {
+  display: flex;
+  justify-content: start;
+}
+
+.header-box-films {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: static;
+}
+
+.All-films-poster,
+.Films-Categories-img {
+  width: 100%;
+  max-width: 200px;
+  height: 300px;
+  filter: drop-shadow(0.2rem 0.2rem black);
+}
+
+.All-films-poster:hover {
+  opacity: 0.5;
+}
+
+.Films-Categories-img:hover {
+  opacity: 0.5;
+}
+
+.Films-Categories-img {
+  margin-left: 1rem;
+}

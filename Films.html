@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Browse our Film selection at SquareEyes"
+    />
+    <link rel="stylesheet" href="SquareEyes.css" />
+    <link rel="icon" type="image/png" href="Images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/04bc286c5b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>SquareEyes Films</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="Container-1">
+        <div class="square-eyes-logo-box">
+          <a href="index.html">
+            <img
+              class="SquareEyes-logo"
+              src="Images/Logo4.png"
+              alt="Square Eyes logo"
+            />
+          </a>
+        </div>
+
+        <input type="checkbox" id="mobile-checkbox" />
+        <label id="hamburger" for="mobile-checkbox"
+          ><i
+            tabindex="0"
+            class="fa-solid fa-bars fa-2xl"
+            style="color: #ffffff"
+          ></i
+        ></label>
+
+        <nav aria-label="navigation menu">
+          <a tabindex="0" aria-label="navigation menu home" href="index.html"
+            >Home</a
+          >
+          <a
+            tabindex="0"
+            aria-label="navigation menu Films"
+            class="active-page"
+            href="Films.html"
+            >Films</a
+          >
+          <a
+            tabindex="0"
+            aria-label="navigation menu About Us"
+            href="AboutUs.html"
+            >About Us</a
+          >
+          <a
+            tabindex="0"
+            aria-label="navigation menu Contact"
+            href="Contact.html"
+            >Contact</a
+          >
+        </nav>
+
+        <div class="Search-Cart-box">
+          <form class="Search-form" role="search" action="">
+            <input tabindex="0" type="checkbox" id="search-checkbox" />
+            <label id="search-icon-button" for="search-checkbox"
+              ><img
+                tabindex="0"
+                class="search-icon"
+                src="Images/SearchIcon-white.png"
+                alt="White Search Button"
+            /></label>
+            <label id="search-box-label" for="search-box"></label>
+            <input id="search-box" type="search" placeholder="Search Films" />
+          </form>
+
+          <a class="cart-icon" href="CartPage.html"
+            ><img
+              class="cart-icon"
+              src="Images/CartIcon-White.png"
+              alt="Cart icon"
+          /></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="All-films-box">
+        <h1 class="header-films-page" id="h1-Films">Films</h1>
+
+        <h2 class="header-films-page" id="h2-Films">Films-All Films</h2>
+
+        <div class="All-films-images-box">
+          <div class="All-films-images">
+            <a href="Product-page2.html"
+              ><img
+                class="All-films-poster"
+                src="Images/ToyStory4-Poster.jpeg"
+                alt="Toy Story 4 film poster"
+            /></a>
+            <a href="Product-page1.html"
+              ><img
+                class="All-films-poster"
+                src="Images/TheBatmanPoster.jpeg"
+                alt="The Batman film poster"
+            /></a>
+            <img
+              class="All-films-poster"
+              src="Images/OnceUponATimeInHollywood.jpeg"
+              alt="Once Upon A Time in Hollywood film poster"
+            />
+            <img
+              class="All-films-poster"
+              src="Images/Godzilla.jpeg"
+              alt="Godzilla film poster"
+            />
+            <img
+              class="All-films-poster"
+              src="Images/Scream.jpeg"
+              alt="Scream film poster"
+            />
+            <img
+              class="All-films-poster"
+              src="Images/TheAddamsFamily.jpeg"
+              alt="The Addams Family film poster"
+            />
+            <img
+              class="All-films-poster"
+              src="Images/Hobbs&Shaw.jpeg"
+              alt="Hobbs&Shaw film poster"
+            />
+            <img
+              class="All-films-poster"
+              src="Images/Sweetheart.jpeg"
+              alt="Sweetheart film poster"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section class="Films-Categories-box">
+        <div class="Film-cat-row-1">
+          <div class="header-box-films">
+            <h3 class="header-films-page" id="header-Films-horror">
+              Films-Horror
+            </h3>
+          </div>
+
+          <div class="cat-img-box">
+            <img
+              class="Films-Categories-img"
+              id="Horror-film-img"
+              src="Images/Scream.jpeg"
+              alt="Scream Film Poster"
+            />
+          </div>
+        </div>
+
+        <div class="Film-cat-row-2">
+          <div class="header-box-films">
+            <h3 class="header-films-page" id="header-Films-Family">
+              Films-Family
+            </h3>
+          </div>
+
+          <div class="cat-img-box">
+            <img
+              class="Films-Categories-img"
+              id="Family-film-img"
+              src="Images/ToyStory4-Poster.jpeg"
+              alt="ToyStory 4 Film Poster"
+            />
+          </div>
+
+          <div class="header-box-films">
+            <h4 class="header-films-page" id="h4-Films">Films-Action</h4>
+          </div>
+        </div>
+
+        <div class="Film-cat-row-3">
+          <img
+            class="Films-Categories-img"
+            id="Action-film-img1"
+            src="Images/TheBatmanPoster.jpeg"
+            alt="The Batman Film Poster"
+          />
+
+          <img
+            class="Films-Categories-img"
+            id="Action-film-img2"
+            src="Images/Hobbs&Shaw.jpeg"
+            alt="Scream Film Poster"
+          />
+
+          <img
+            class="Films-Categories-img"
+            id="Action-film-img3"
+            src="Images/Godzilla.jpeg"
+            alt="Scream Film Poster"
+          />
+        </div>
+
+        <div class="Film-cat-row-4">
+          <div class="header-box-films">
+            <h5 class="header-films-page" id="h5-Films">Films-Thriller</h5>
+          </div>
+
+          <div class="cat-img-box">
+            <img
+              class="Films-Categories-img"
+              id="Thriller-film-img"
+              src="Images/Sweetheart.jpeg"
+              alt="Scream Film Poster"
+            />
+          </div>
+        </div>
+
+        <div class="Film-cat-row-5">
+          <div class="header-box-films">
+            <h6 class="header-films-page" id="h6-Films">Films-Comedy</h6>
+          </div>
+
+          <div class="cat-img-box">
+            <img
+              class="Films-Categories-img"
+              id="Comedy-film-img"
+              src="Images/OnceUponATimeInHollywood.jpeg"
+              alt="Scream Film Poster"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="Container-4">
+        <div class="footer-content-box">
+          <div class="SMI-img-box">
+            <img src="Images/FacebookIcon.png" alt="Facebook icon" />
+            <img src="Images/InstagramIcon.png" alt="Instagram icon" />
+            <img src="Images/TwitterIcon.png" alt="Twitter icon" />
+            <img src="Images/YoutubeIcon.png" alt="Youtube icon" />
+          </div>
+
+          <div class="footer-links-box">
+            <div class="Footer-Links">
+              <a href="">Support<span class="line">|</span></a>
+              <a href="">Terms of use <span class="line">|</span></a>
+              <a href="">Contact<span class="line">|</span></a>
+              <a href="">Privacy Statement<span class="line">|</span></a>
+              <a href="">FAQ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
