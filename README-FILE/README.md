@@ -30,7 +30,16 @@ I created this website according to the following brief:
 - No frameworks
 - The site should be WCAG compliant, and accessibility should be taken into account.
 - Each page should have a unique <meta name="description">, <title>, and <h1>.
-- All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+- All code submitted must be written by yourself.
+
+  BUILT WITH
+
+  -HTML
+  -CSS
+
+  INSTALLATION
+
+  1. Clone the repo: 
 
 
 
