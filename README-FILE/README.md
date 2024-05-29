@@ -18,7 +18,7 @@ The website contains:
 
 
 
-Project Brief 
+PROJECT BRIEF
 
 I created this website according to the following brief: 
 
